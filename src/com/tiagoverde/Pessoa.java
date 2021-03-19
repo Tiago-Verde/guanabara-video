@@ -50,6 +50,11 @@ public abstract class  Pessoa {
     }
 
     public void ganharExperiencia(){
+        this.setExperiencia(this.getExperiencia()+10);
+        if(getExperiencia() <= 100){
+            this.setNivel(getNivel()+1);
 
     }
+}
+
 }
