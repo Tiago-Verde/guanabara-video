@@ -49,7 +49,7 @@ public abstract class  Pessoa {
         this.experiencia = experiencia;
     }
 
-    public void ganharExperiencia(){
+    protected void ganharExperiencia(){
         this.setExperiencia(this.getExperiencia()+10);
         if(getExperiencia() <= 100){
             this.setNivel(getNivel()+1);

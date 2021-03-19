@@ -25,7 +25,7 @@ public class Usuario extends Pessoa {
 
     public void viuMaisUm(){
         this.setTotalAssistido(this.getTotalAssistido()+1);
-    }
+        }
 
 
 }
