@@ -2,7 +2,8 @@ package com.tiagoverde;
 
 public class Video implements acoesVideo{
     private String titulo;
-    private String avaliacao;
+    private int avaliacao;
+    private String review;
     private int views;
     private int curtidas;
     private boolean reproduzindo;
@@ -15,6 +16,10 @@ public class Video implements acoesVideo{
         this.reproduzindo = false;
     }
 
+    public String getReview(){ return  review; }
+
+    public void setReview(String review){ this.review = review; }
+
     public String getTitulo() {
         return titulo;
     }
@@ -23,11 +28,11 @@ public class Video implements acoesVideo{
         this.titulo = titulo;
     }
 
-    public String getAvaliacao() {
+    public int getAvaliacao() {
         return avaliacao;
     }
 
-    public void setAvaliacao(String avaliacao) {
+    public void setAvaliacao(int avaliacao) {
         this.avaliacao = avaliacao;
     }
 

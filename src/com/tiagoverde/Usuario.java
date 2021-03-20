@@ -13,17 +13,21 @@ public class Usuario extends Pessoa {
         return login;
     }
 
+
     public void setLogin(String login) {
         this.login = login;
     }
+
 
     public int getTotalAssistido() {
         return totalAssistido;
     }
 
+
     public void setTotalAssistido(int totalAssistido) {
         this.totalAssistido = totalAssistido;
     }
+
 
 
 
