@@ -7,7 +7,13 @@ public abstract class  Pessoa {
     protected int nivel;
     protected int experiencia;
 
-
+    public Pessoa(String nome, int idade, String sexo) {
+        this.nome = nome;
+        this.idade = idade;
+        this.sexo = sexo;
+        this.nivel = 0;
+        this.experiencia = 0;
+    }
 
     public String getNome() {
         return nome;

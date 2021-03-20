@@ -8,11 +8,11 @@ public class Video implements acoesVideo{
     private boolean reproduzindo;
 
 
-    public Video(String titulo, int views, int curtidas, boolean reproduzindo) {
+    public Video(String titulo) {
         this.titulo = titulo;
-        this.views = views;
-        this.curtidas = curtidas;
-        this.reproduzindo = reproduzindo;
+        this.views =0;
+        this.curtidas = 0;
+        this.reproduzindo = false;
     }
 
     public String getTitulo() {
