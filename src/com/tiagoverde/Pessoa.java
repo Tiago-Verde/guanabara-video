@@ -56,13 +56,13 @@ public abstract class  Pessoa {
     }
 
     protected void ganharExperiencia() {
-        this.setExperiencia(this.getExperiencia() + 10);
+        this.experiencia = this.experiencia + 10;
     }
 
 
     protected void subirNivel() {
         if (getExperiencia() >= 100) {
-            this.setNivel(getNivel() + 1);
+            this.nivel ++;
 
         }
     }
